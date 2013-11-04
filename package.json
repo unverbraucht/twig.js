@@ -2,15 +2,15 @@
   "author": "John Roepke <john@justjohn.us> (http://john.sh/)",
   "name": "twig",
   "description": "JS port of the Twig templating language.",
-  "version": "0.5.12",
-  "homepage": "https://github.com/justjohn/twig.js",
+  "version": "0.5.13",
+  "homepage": "https://github.com/unverbraucht/twig.js",
   "licenses": [
     { "type": "BSD-2-Clause",
-      "url":  "https://raw.github.com/justjohn/twig.js/master/LICENSE" }
+      "url":  "https://raw.github.com/unverbraucht/twig.js/master/LICENSE" }
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/justjohn/twig.js.git"
+    "url": "git://github.com/unverbraucht/twig.js.git"
   },
   "main": "twig.min.js",
   "engines": {

@@ -1,6 +1,6 @@
 {
   "name": "twig.js",
-  "version": "0.5.12",
+  "version": "0.5.13",
   "main": "twig.min.js",
   "ignore": [
     "Makefile",
@@ -14,7 +14,7 @@
     "test",
     "test-ext"
   ],
-  "homepage": "https://github.com/justjohn/twig.js",
+  "homepage": "https://github.com/unverbraucht/twig.js",
   "authors": [
     "John Roepke <john@justjohn.us>"
   ],
