@@ -1325,7 +1325,7 @@ var Twig = (function(Twig) {
                     case "s": return ("0" + me.getSeconds()).replace(/^.+(..)$/, "$1");
                     // Milliseconds
                     case "u": return me.getMilliseconds();
-                    case "U": return me.getTime();
+                    case "U": return me.getTime()/1000;
                 }
             });
         };
