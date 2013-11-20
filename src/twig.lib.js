@@ -233,7 +233,7 @@ var Twig = (function(Twig) {
                     return date + "";
             var jan1st = new Date(date.getFullYear(), 0, 1);
             var me = date;
-            return format.replace(/[dDjlNSwzWFmMntLoYyaABgGhHisu]/g, function(option) {
+            return format.replace(/[dDjlNSwzWFmMntLoYyaABgGhHisuU]/g, function(option) {
                 switch(option) {
                     // Day of the month, 2 digits with leading zeros
                     case "d": return ("0" + me.getDate()).replace(/^.+(..)$/, "$1");
@@ -293,6 +293,7 @@ var Twig = (function(Twig) {
                     case "s": return ("0" + me.getSeconds()).replace(/^.+(..)$/, "$1");
                     // Milliseconds
                     case "u": return me.getMilliseconds();
+                    case "U": return me.getTime()/1000;
                 }
             });
         };
